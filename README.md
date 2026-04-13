@@ -8,12 +8,12 @@ Aiming to reduce inference latency and smooth executed actions in VLA and Diffus
 
 - Old chunk  
 $$
-\mathbf{a}^{old} = \{a^{old}_0, \dots, a^{old}_{T-1}\}
+a^{old} = \{a^{old}_0, \dots, a^{old}_{T-1}\}
 $$
 
 - New chunk  
 $$
-\mathbf{a}^{new} = \{a^{new}_0, \dots, a^{new}_{T-1}\}
+a^{new} = \{a^{new}_0, \dots, a^{new}_{T-1}\}
 $$
 
 - Delay: $d$ steps  
@@ -34,11 +34,7 @@ $$
 ## 2. Linear Blending
 
 $$
-\tilde{a}_{T-L+k}
-=
-(1-\alpha_k)\,a^{old}_{T-L+k}
-+
-\alpha_k\,a^{new}_{d+k}
+\tilde{a}_{T-L+k} = (1-\alpha_k)\,a^{old}_{T-L+k} + \alpha_k\,a^{new}_{d+k}
 $$
 
 $$

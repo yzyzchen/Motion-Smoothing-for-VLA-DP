@@ -6,12 +6,14 @@ Aiming to reduce inference latency and smooth executed actions in VLA and Diffus
 
 ## Setup
 
-- Old chunk  
+- Old chunk
+
 $$
 a^{old} = \{a^{old}_0, \dots, a^{old}_{T-1}\}
 $$
 
-- New chunk  
+- New chunk 
+ 
 $$
 a^{new} = \{a^{new}_0, \dots, a^{new}_{T-1}\}
 $$
